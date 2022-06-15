@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+}
+
+div.sidebar {
+    background-color: #3b0303;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px 0 10px;
+    gap: 20px;
+}
+
+div.principal {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+div.sidebar span {
+    font-size: 2rem;
+}
+
+@media (max-width: 640px) {
+    body {
+        flex-direction: column-reverse;
+    }
+
+    div.sidebar {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+}
