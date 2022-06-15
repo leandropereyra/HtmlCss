@@ -1,0 +1,16 @@
+.btn-modern {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+.btn-modern:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(141, 62, 243, 0.5);
+    background-color: rgb(92, 55, 226);
+    color: white;
+    font-weight: bold;
+}
